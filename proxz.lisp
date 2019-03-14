@@ -228,7 +228,7 @@ Returns a list of an ip and port or nil."
           (format t "[+] Verification complete. Validated ~A proxies.~%" (length results))
           (format t "---------------------------------------------------------~%")
           (dolist (i results)
-            (format t "http~C~A~C~A~%" #\tab (first i) #\tab  (second i)))
+            (format t "#http~C~A~C~A~%" #\tab (first i) #\tab  (second i)))
           (format t "---------------------------------------------------------~%"))
         results))))
 
